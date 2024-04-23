@@ -1,0 +1,28 @@
+{
+  "name": "serversol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.3",
+    "@solana/web3.js": "^1.91.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "gulp": "^5.0.0",
+    "helmet": "^7.1.0",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
